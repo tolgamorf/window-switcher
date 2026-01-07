@@ -218,6 +218,7 @@ impl Hotkey {
         let modifier = match keys[0] {
             "win" => [0x5b, 0x5c],
             "alt" => [0x38, 0x38],
+            "altgr" => [0xe038, 0xe038],
             "ctrl" => [0x1d, 0x1d],
             _ => {
                 return None;
